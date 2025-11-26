@@ -4,3 +4,8 @@ includes:
   setup:
     taskfile: ./03-installation-and-setup/Taskfile.yaml
     dir: ./03-installation-and-setup
+
+tasks:
+  tl:
+    desc: "Alias for task --list-all"
+    cmd: task --list-all
